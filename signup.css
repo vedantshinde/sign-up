@@ -1,0 +1,76 @@
+body {
+	background-color: #BDF1F6;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.85em;
+  color: rgba(66,66,66 ,1);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 75%;
+  background-color: #F2FCFC;
+  display: flex;
+  border-radius: 15px;
+}
+
+/*make the width of both 50% i.e half and equal.*/
+section, form {
+  width: 50%;
+  padding: 70px 50px;
+}
+
+.testimonial {
+  align-self: center;
+  text-align: center;
+  height: 250px;
+  border-right: 2px solid rgb(224,224,224);
+}
+
+
+p {
+  line-height: 1.7 /* change this to a higher value like 2 0r 3 to see the difference*/
+}
+
+/*Reduce the width of the image*/
+img {
+  width: 100px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+.signup-form h3 {
+  text-transform:uppercase;
+  margin-bottom: 40px;
+}
+.signup-form input {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #F2FCFC;
+  font-size: 0.95rem;
+  border: 1px solid #F2FCFC;
+  margin: 15px;
+  border-bottom: 2px solid rgb(224,224,224);
+  width: 250px;
+}
+.signup-form input[type='checkbox'] {
+  width:auto;
+  margin:20px 0px;
+  padding:0;
+}
+.signup-form span {
+  //display:inline-block;
+  font-size: 0.7rem;
+  margin:0;
+  padding:0;
+}
+.signup-form button {
+  margin-top: 40px;
+  background-color: rgb(13,71,161);
+  color: rgb(245,245,245);
+  border-radius: 15px;
+  padding: 10px 15px;
+  border: rgb(13,71,161);
+}
